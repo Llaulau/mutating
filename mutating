@@ -1,18 +1,31 @@
 extension Int {
-    mutating func exponantThree() {
+    mutating func exponentThree() {
         self = self * self * self
     }
 }
 
-var age: Int = Int(70)
+var age: Int = 70
 
 age.exponentThree()
-print ( age )
+print(age)
 
-100
+let x = 10
+let y = 90
 
-true
+let z = x + y
 
-"geneva"
+print(z)
 
-21.9
+let a = true
+let b = false
+
+let c = a || b
+
+print(c)
+
+let city = "Geneva"
+print(city)
+
+let temperature = 21.9
+print(temperature)
+
